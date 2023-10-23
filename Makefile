@@ -1,5 +1,7 @@
+# Name of the executable
 EXEC = cppaudiocapture
 
+# Include PortAudio and FFTW headers and library archives
 CLIB = -I./lib/portaudio/include ./lib/portaudio/lib/.libs/libportaudio.a \
 	-lrt -lasound -ljack -pthread -I./lib/fftw-3.3.10/api -lfftw3
 
@@ -39,3 +41,7 @@ uninstall-fftw:
 clean:
 	rm -f $(EXEC)
 .PHONY: clean
+
+clean-all: clean
+	rm -rf lib
+.PHONY: clean-all
