@@ -9,12 +9,12 @@ The YouTube tutorial is split into two parts:
 
 1. Capture realtime audio from the computer and display its left and right
    channels as volume bars in the terminal
-    - **Video**: https://youtu.be/jpsJCji71Ec?si=4uEexNfL0GmIJ8XL
+    - **Video**: https://youtu.be/jpsJCji71Ec
     - **Source code**: https://github.com/chrisrouck/tutorial-cpp-audio-capture/releases/tag/v1.0.0
 2. Gather frequency data from the audio capture and display it as a spectrogram
    in the terminal
-    - **Video**: *in progress*
-    - **Source code**: *tbd*
+    - **Video**: https://youtu.be/yt7i4zPbVDs
+    - **Source code**: https://github.com/chrisrouck/tutorial-cpp-audio-capture/releases/tag/v2.0.0
 
 ## Feedback
 
@@ -28,5 +28,5 @@ page](https://github.com/chrisrouck/tutorial-cpp-audio-capture/discussions).
 If you would like to **report any bugs** or **suggest changes to the code**, you
 can [create an
 issue](https://github.com/chrisrouck/tutorial-cpp-audio-capture/issues/new/choose).
-Past and existing issues can be found
+Current and past issues can be found
 [here](https://github.com/chrisrouck/tutorial-cpp-audio-capture/issues).
